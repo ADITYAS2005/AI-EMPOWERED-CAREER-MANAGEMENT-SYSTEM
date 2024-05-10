@@ -1,0 +1,17 @@
+1) Sabse pehle CareerPrediction ki jo file hai uski location ko copy karlo
+for example on my pc, the location is "C:\Users\MRJ\Downloads\Career-Prediction-System-main\Career-Prediction-System-main2"
+
+2) Now open cmd and type "cd [paste location of file here without brackets]"
+
+3) Now type "pip install -r requirements.txt" (saare required libraries install ho jayengi)
+
+4) Now type "pip run training.py"
+
+Step 4 ke baad output ayega "model trained successfully"
+
+5) Now type "streamlit run app.py"
+
+Step 5 ke baad browser me khul jayega project, usme random inputs dena aur check karna it will work, agar koi error aata hai to repeat Step 3,4 and 5 in chronoogical order.
+
+
+Webpage ke colors aur theme me changes karne ke liye "app.py" ke file me given code ko edit kar sakte ho
